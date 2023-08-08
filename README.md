@@ -1,6 +1,8 @@
 # Trabajo de Cálculos con FastAPI
 
-Este proyecto tiene como objetivo recibir y analizar múltiples archivos Excel que contienen datos de señales y etiquetas. Los análisis incluyen regresión lineal, regresión polinómica, ANOVA, LDA y más.
+Este proyecto tiene como objetivo recibir y analizar múltiples archivos Excel que 
+contienen datos de señales y etiquetas. Los análisis incluyen regresión lineal, 
+regresión polinómica, ANOVA, LDA y más.
 
 ## Características
 
