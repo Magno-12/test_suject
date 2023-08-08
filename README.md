@@ -23,9 +23,8 @@ python -m venv env
 ## Activar el entorno virtual:
 
 - source env/bin/activate  # En Linux/macOS
-O, si estás en Windows:
-- .\env\Scripts\activate
-- 
+- .\env\Scripts\activate # Si estás en Windows
+  
 ## Instalar las dependencias:
 
 - pip install -r requirements.txt
