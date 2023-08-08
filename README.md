@@ -19,8 +19,6 @@ Este proyecto tiene como objetivo recibir y analizar múltiples archivos Excel q
 
 (Opcional) Crear un entorno virtual:
 
-bash
-Copy code
 python -m venv env
 ## Activar el entorno virtual:
 
