@@ -10,11 +10,11 @@ app = FastAPI()
 origins=["*"]
 
 app.add_middleware(
-	CORSMiddleware,
-	allow_origins=origins,
-	alow_credentials=True,
-	allow_methods=["*"],
-	allow_headers=["*"],
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"]
 )
 
 @app.post("/upload/{subject_number}/")
