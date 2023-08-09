@@ -1,10 +1,21 @@
 from fastapi import FastAPI, UploadFile, File
 from fastapi.responses import JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 from analyses import analyze_labels, analyze_signals_fixed_v2, post_hoc_tukey_analysis
 from cleanup import clean_signals
 
 app = FastAPI()
+
+origins=["*"]
+
+app.add_middleware(
+	CORSMiddleware,
+	allow_origins=origins,
+	alow_credentials=True,
+	allow_methods=["*"],
+	allow_headers=["*"],
+)
 
 @app.post("/upload/{subject_number}/")
 async def upload_files(
