@@ -41,7 +41,7 @@ starlette==0.14.2
 statsmodels==0.12.2
 threadpoolctl==2.2.0
 toml==0.10.2
-typing_extensions==3.10.0.2
+typing_extensions
 tzdata==2021.1
 urllib3==1.26.6
 uvicorn==0.15.0
